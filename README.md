@@ -43,3 +43,11 @@ Software Components
 • Wokwi Simulator
 
 • C++ (Arduino Programming Language)
+
+How It Works
+The ESP32 initializes the DHT22 sensor and the 16×2 I2C LCD.
+The DHT22 sensor measures the surrounding temperature and humidity.
+The ESP32 reads the sensor values at regular intervals.
+The temperature and humidity values are displayed on the LCD in real time.
+The same readings are printed to the Serial Monitor for monitoring and debugging.
+The process repeats continuously, providing live environmental monitoring.
